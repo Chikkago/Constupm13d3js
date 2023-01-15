@@ -46,7 +46,7 @@ var config = { // favourite cylindricalStereographic  |  mercator  |  miller  | 
   datapath: "../data/",  // Path/URL to data files, empty = subfolder 'data'
   stars: {
     show: true,    // Show stars
-    limit: 6,      // Show only stars brighter than limit magnitude
+    limit: 5,      // Show only stars brighter than limit magnitude
     colors: true,  // Show stars in spectral colors, if not use "color"
     style: { fill: "#ffffff", opacity: 1 }, // Default style for stars
     names: true,   // Show star names (Bayer, Flamsteed, Variable star, Gliese, whichever applies first)
@@ -56,7 +56,7 @@ var config = { // favourite cylindricalStereographic  |  mercator  |  miller  | 
     namestyle: { fill: "#ddddbb", font: "11px Georgia, Times, 'Times Roman', serif", align: "left", baseline: "top" },
     propernamestyle: { fill: "#ddddbb", font: "11px Georgia, Times, 'Times Roman', serif", align: "right", baseline: "bottom" },
     propernamelimit: 1.5,  // Show proper names for stars brighter than propernamelimit
-    size: 7,       // Maximum size (radius) of star circle in pixels
+    size: 3,       // Maximum size (radius) of star circle in pixels
     exponent: -0.28, // Scale exponent for star size, larger = more linear
     data: 'stars.6.json' // Data source for stellar data
   },
